@@ -1,0 +1,64 @@
+.jumbotron {
+	background: url(../img/bg/20.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.jumbotron h2, h3 {
+	font-family: arial;
+	letter-spacing: 0px;
+	color: white;
+	font-weight: 700;
+	opacity: 0.9;
+}
+section{
+	margin-top: -30px;
+	position:relative;
+	padding: 10px;
+	margin-bottom: 0px;
+	background-size:cover;
+
+}
+
+@media all and (max-width:1000px) {
+}
+
+footer {
+
+    width: 100%;
+    bottom:0px;
+    background-size: cover;
+    background-position: center;
+    background-color:#26272b;
+ 
+}
+footer hr {
+	border-top-color: #bbb;
+	opacity:.1;
+}
+footer h3 {
+	color: white;
+	font-weight: bold;
+	size: 200px;
+}
+footer p {
+	font-family: sans-serif;
+	color: white;
+	size: 10px;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+footer a:hover {
+	text-decoration: none;
+	transition: all 140ms;
+	margin-left: 5px;
+}
+footer .line hr {
+	text-align: left;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+}
